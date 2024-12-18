@@ -3,6 +3,7 @@ import Brands from "./components/Brands";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Solutions from "./components/Solutions";
+import Testimonial from "./components/Testimonial";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
           <AboutUs />
           <Solutions />
         </div>
+        <Testimonial />
       </div>
     </>
   );
