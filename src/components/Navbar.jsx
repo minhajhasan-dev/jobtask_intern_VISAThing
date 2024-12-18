@@ -32,8 +32,8 @@ const Navbar = () => {
   ];
 
   return (
-    <div>
-      <div className="navbar bg-base-100">
+    <div className="sticky top-0 w-full bg-base-100 z-50">
+      <div className="navbar container mx-auto bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -69,7 +69,7 @@ const Navbar = () => {
           <a href="#" className="navbar-link text-[#005397]">
             Login
           </a>
-          <a className="btn hover:bg-[#005397] rounded-3xl bg-[#005397] text-white">
+          <a className="btn hover:bg-[#005397] font-normal rounded-3xl bg-[#005397] text-white">
             Apply Now
           </a>
         </div>
