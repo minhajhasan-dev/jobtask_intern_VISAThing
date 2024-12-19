@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useRef } from "react";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { SiTrustpilot } from "react-icons/si";
+import Carousel from "./Carousel/Carousel";
 
 const Testimonial = () => {
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
+
   return (
     <div className="bg-[#005397] py-[100px] text-white ">
       <div className="mx-auto container">
         {/* pre carousel div */}
-        <div className="flex justify-between">
+        <div className="flex justify-between items-center">
           {/* left content  */}
           <div className="w-1/2">
             <p className="text-xl text-[#7CE4A1] font-normal">Testimonial</p>
@@ -27,12 +32,26 @@ const Testimonial = () => {
                 </span>
               </p>
               {/* carousel control button */}
-              <div>
-                {/* demo button here. update it */}
-                <button className="btn btn-primary">Hi</button>
+              <div className="flex gap-8 mt-4">
+                <button
+                  ref={prevRef}
+                  className="btn p-4 rounded-xl bg-[#fff] text-[#005397]"
+                >
+                  <FaArrowLeft />
+                </button>
+                <button
+                  ref={nextRef}
+                  className="btn p-4 rounded-xl bg-[#fff] text-[#005397]"
+                >
+                  <FaArrowRight />
+                </button>
               </div>
             </div>
           </div>
+        </div>
+        {/* carousel div*/}
+        <div className="flex gap-4 mt-14">
+          <Carousel prevRef={prevRef} nextRef={nextRef} />
         </div>
       </div>
     </div>
