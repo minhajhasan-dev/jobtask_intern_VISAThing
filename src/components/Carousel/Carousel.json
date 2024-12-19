@@ -1,0 +1,74 @@
+[
+  {
+    "name": "John Doe",
+    "role": "Customer",
+    "position": "CEO of RSM",
+    "rating": 5,
+    "time": "2 days ago",
+    "review": "Fast at letting me know I got approved for the loan. Fund deposit was fast."
+  },
+  {
+    "name": "Jane Smith",
+    "role": "Customer",
+    "position": "CFO of ABC Corp",
+    "rating": 4,
+    "time": "3 days ago",
+    "review": "Great service and quick response. Highly recommend."
+  },
+  {
+    "name": "Alice Johnson",
+    "role": "Customer",
+    "position": "CTO of XYZ Ltd",
+    "rating": 5,
+    "time": "1 week ago",
+    "review": "Very efficient and professional. The process was smooth."
+  },
+  {
+    "name": "Bob Brown",
+    "role": "Customer",
+    "position": "Manager at DEF Inc",
+    "rating": 3,
+    "time": "5 days ago",
+    "review": "Good service but the process took longer than expected."
+  },
+  {
+    "name": "Charlie Davis",
+    "role": "Customer",
+    "position": "Director at GHI Co",
+    "rating": 4,
+    "time": "4 days ago",
+    "review": "Helpful staff and quick approval. Satisfied with the service."
+  },
+  {
+    "name": "Diana Evans",
+    "role": "Customer",
+    "position": "Owner of JKL Enterprises",
+    "rating": 5,
+    "time": "2 weeks ago",
+    "review": "Excellent service and fast funding. Highly recommend."
+  },
+  {
+    "name": "Ethan Foster",
+    "role": "Customer",
+    "position": "CEO of MNO Group",
+    "rating": 4,
+    "time": "6 days ago",
+    "review": "Good experience overall. The team was very supportive."
+  },
+  {
+    "name": "Fiona Green",
+    "role": "Customer",
+    "position": "Founder of PQR Solutions",
+    "rating": 5,
+    "time": "1 day ago",
+    "review": "Outstanding service and quick turnaround. Very pleased."
+  },
+  {
+    "name": "George Harris",
+    "role": "Customer",
+    "position": "COO of STU Ventures",
+    "rating": 4,
+    "time": "3 weeks ago",
+    "review": "Professional and efficient. The loan process was seamless."
+  }
+]
